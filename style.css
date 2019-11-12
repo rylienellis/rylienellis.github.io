@@ -1,11 +1,11 @@
 *
-#page1 header {
+header {
   text-align:center;
-  padding-top:20px
-  font-family: sans serif
+  padding-top:20px;
+  font-family: sans serif;
 }
 
-#page1 .navbar {
+.navbar {
   position: fixed;
   background: none;
   height: 80px;
