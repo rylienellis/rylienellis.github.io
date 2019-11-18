@@ -11,6 +11,20 @@ header {
   background: none;
   height: 80px;
 }
+
+.navigation li{
+  display: inline;
+  margin: 10px 5px;
+}
+
+.navigation li a{
+  color: white;
+  background-color: darkslategray;
+  padding: 5px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  border: 1px solid white;
+}
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
   font-size: 40px;
@@ -34,6 +48,7 @@ h3 {
 h4 { 
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: lightgray
 }
 
 h5{
