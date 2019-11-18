@@ -12,11 +12,12 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   margin: 5px;
   overflow: hidden;
   background-color: darkslategray;
-  border: border-radius: 7px; /*slightly rounded edges*/
+  border-radius: 7px; /*slightly rounded edges*/
 }
 
 li.navbarlist { /*keeps the links to the left, rather than the default stacked*/
 	float: left;
+}
 
 li.navbarlist a {
   display: block;
