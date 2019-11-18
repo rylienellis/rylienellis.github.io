@@ -18,12 +18,12 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 li.navbarlist { /*keeps the links to the left, rather than the default stacked*/
 	float: left;
 
-  li.navbarlist a {
-    display: block;
-    padding: 10px 20px; 
-    text-align: center;
-    color: white;
-    text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
+li.navbarlist a {
+  display: block;
+  padding: 10px 20px; 
+  text-align: center;
+  color: white;
+  text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
