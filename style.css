@@ -32,12 +32,12 @@ h3 {
 }
 
 h4 { 
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h5{
-  font-size: 8;
+  font-size: 10;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: cadetblue;
 }
@@ -55,6 +55,6 @@ footer {
 	width: 100%;
 	font-family: Georgia, Times, serif;
 	font-size: 10px;
-	background-color: paleturquoise;
+	background-color: darkslategray;
 
 }
