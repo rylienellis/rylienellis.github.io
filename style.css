@@ -65,9 +65,7 @@ h5{
 
 /* Footer owner: Rylie */
 footer {
-
-  -webkit-column-count: 3;
-  column-width: 40px;
+  
   margin-top: 20px;
   padding: 10px;
 	text-align: center;
