@@ -63,15 +63,15 @@ h5{
   color: lightgray;
 }
 
-/* Footer owner: Rylie */
+/* Footer owner: Rylie - Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
 footer {
-  
+  columns: 50px 3;
+  column-rule: 5px lightgray;
   margin-top: 20px;
   padding: 10px;
 	text-align: center;
 	width: 100%;
 	font-family: Georgia, Times, serif;
 	font-size: 10px;
-	background-color: darkslategray;
-
+  background-color: darkslategray;
 }
