@@ -6,10 +6,12 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/*navbar container*/
 ul.navbar { /*the beginning of my navigation bar, present on all pages of the site*/
   /*base format derived from w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
   list-style-type: none;
   margin: 5px;
+  padding: 5px;
   overflow: hidden;
   background-color: darkslategray;
   border-radius: 7px; /*slightly rounded edges*/
@@ -28,7 +30,8 @@ li.navbarlist a {
 }
 
 li.navbarlist a:hover { /*changes appearance of list item when user hovers over it with cursor*/
-	background-color: #132020;
+  background-color: white;
+  color: darkslategray;
 	border-radius: 7px;
 }
 
