@@ -58,10 +58,8 @@ h4 {
   color: lightgray
 }
 
-h5{
-  font-size: 12;
-  font-family: sans-serif;
-  color: lightgray;
+a{ /* Style for the footer facebook and instagram logos - Rylie */
+  float: right;
 }
 
 /* Footer owner: Rylie - Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
