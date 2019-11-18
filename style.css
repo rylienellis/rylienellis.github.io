@@ -6,24 +6,24 @@ header {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.navbar {
-  position: fixed;
-  background: none;
-  height: 80px;
-}
-
-.navigation li{
-  display: inline;
-  margin: 10px 5px;
-}
-
-.navigation li a{
-  color: white;
+ul.navbar { /*the beginning of my navigation bar, present on all pages of the site*/
+  /*base format derived from w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
+  list-style-type: none;
+  margin: 5px;
+  overflow: hidden;
   background-color: darkslategray;
-  padding: 5px 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  letter-spacing: 3px;
-  border: 1px solid white;
+  border: border-radius: 7px; /*slightly rounded edges*/
+}
+
+li.navbarlist { /*keeps the links to the left, rather than the default stacked*/
+	float: left;
+
+  li.navbarlist a {
+    display: block;
+    padding: 10px 20px; 
+    text-align: center;
+    color: white;
+    text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
