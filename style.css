@@ -15,13 +15,8 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   border-radius: 7px; /*slightly rounded edges*/
 }
 
-.navigation {
-  float: left;
-  margin: 20px;
-}
-.navigation li{
-  display: inline;
-  margin: 10px 5px;
+li.navbarlist { /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
+	float: left;
 }
 
 li.navbarlist a {
@@ -31,6 +26,12 @@ li.navbarlist a {
   color: white;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
+
+li.navbarlist a:hover { /*changes appearance of list item when user hovers over it with cursor*/
+	background-color: #132020;
+	border-radius: 7px;
+}
+
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
   font-size: 40px;
