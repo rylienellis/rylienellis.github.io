@@ -26,6 +26,12 @@ li.navbarlist a {
   color: white;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
+
+li.navbarlist a:hover { /*changes appearance of list item when user hovers over it with cursor*/
+	background-color: #132020;
+	border-radius: 7px;
+}
+
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
   font-size: 40px;
