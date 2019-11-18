@@ -15,8 +15,13 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   border-radius: 7px; /*slightly rounded edges*/
 }
 
-li.navbarlist { /*keeps the links to the left, rather than the default stacked*/
-	float: left;
+.navigation {
+  float: left;
+  margin: 20px;
+}
+.navigation li{
+  display: inline;
+  margin: 10px 5px;
 }
 
 li.navbarlist a {
@@ -59,18 +64,16 @@ h4 {
 }
 
 h5{
-  font-size: 10;
+  font-size: 12;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: lightgray;
-}
-
-p {
-
 }
 
 /* Footer owner: Rylie */
 footer {
 
+  -webkit-column-count: 3;
+  column-width: 40px;
   margin-top: 20px;
   padding: 10px;
 	text-align: center;
