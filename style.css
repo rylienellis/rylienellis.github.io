@@ -48,7 +48,7 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   height: 100vh;
 }
 
-/* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
+/* GENERAL STYLE FOR WEBSITE Owner: Rylie */
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -76,13 +76,31 @@ h4 {
   color: lightgray
 }
 
-/* MISSION STATEMENT*/
+p{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
+/*MISSION STATEMENT*/
 .mission{
   background-color: #d0e1e1;
   text-align: center;
   border: 1px solid darkslategray;
   padding: 5px 10px;
   border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+}
+
+/*SERVICES PAGE - Header section -Rylie*/
+.servicespage{
+  background-image: url(serviceshead.jpg);
+  opacity: 1;
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size:cover;
+  text-align: center;
+  padding-top: 50px;
 }
 
 
