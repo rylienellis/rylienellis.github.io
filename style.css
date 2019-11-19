@@ -1,6 +1,6 @@
 /* Main Page */
 body{
-  background-color: #afcfcf;
+  background-color: white;
 }
 
 header {
@@ -29,6 +29,7 @@ li.navbarlist a {
   padding: 10px 20px; 
   text-align: center;
   color: white;
+  font-family: sans-serif;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
 
@@ -43,7 +44,7 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
   float: center;
   padding: 10px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
