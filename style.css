@@ -94,7 +94,7 @@ p{
 /*SERVICES PAGE - Header section -Rylie*/
 .servicespage{
   background-image: url(serviceshead.jpg);
-  opacity: 0.8;
+  opacity: 1;
   height: 100%;
   width: 100%;
   background-position: center;
