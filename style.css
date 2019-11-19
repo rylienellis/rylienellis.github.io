@@ -1,5 +1,8 @@
-*
 /* Main Page */
+body{
+  background-color: #afcfcf;
+}
+
 header {
   text-align:center;
   padding-top:20px;
@@ -40,8 +43,7 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
   float: center;
   padding: 10px;
   width: 100%;
-  height: auto;
-  image-orientation: 90turn;
+  height: 100%;
 }
 
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
