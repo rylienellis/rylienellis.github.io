@@ -72,3 +72,8 @@ footer {
 	width: 100%;
   background-color: darkslategray;
 }
+.googleMap {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
