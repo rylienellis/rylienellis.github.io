@@ -47,7 +47,7 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
   height: 100vh;
 }
 
-/* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
+/* GENERAL STYLE FOR WEBSITE Owner: Rylie */
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -75,13 +75,29 @@ h4 {
   color: lightgray
 }
 
-/* MISSION STATEMENT*/
+p{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
+/*MISSION STATEMENT*/
 .mission{
   background-color: #d0e1e1;
   text-align: center;
   border: 1px solid darkslategray;
   padding: 5px 10px;
   border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+}
+
+/*SERVICES PAGE - Header section -Rylie*/
+.servicespage{
+  background-image: url(serviceshead.jpg);
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size:cover;
 }
 
 
