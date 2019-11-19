@@ -95,10 +95,12 @@ p{
 .servicespage{
   background-image: url(serviceshead.jpg);
   opacity: 1;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   background-position: center;
   background-size:cover;
+  text-align: center;
+  padding-top: 50px;
 }
 
 
