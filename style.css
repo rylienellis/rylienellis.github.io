@@ -40,6 +40,10 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 	border-radius: 7px;
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* Header images for general layout - Rylie */
 .headerimages{
   float: center;
