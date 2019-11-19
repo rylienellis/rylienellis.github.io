@@ -72,6 +72,18 @@ h4 {
   color: lightgray
 }
 
+/* MISSION STATEMENT*/
+.mission{
+  background-color: #d0e1e1;
+  text-align: center;
+  border: 1px solid darkslategray;
+  padding: 5px 10px;
+}
+
+
+
+
+
 /* Footer owner: Rylie - Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
 footer {
   columns: 50px 3;
