@@ -21,6 +21,12 @@ li.navbarlist { /*this keeps the links of the navigation bar to the left, rather
 	float: left;
 }
 
+.dropdown {
+  float:left;
+  overflow: hidden;
+  
+}
+
 li.navbarlist a {
   display: block;
   padding: 10px 20px; 
@@ -29,7 +35,7 @@ li.navbarlist a {
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
 
-li.navbarlist a:hover { /*changes appearance of list item when user hovers over it with cursor*/
+li.navbarlist a:hover, .dropdown:hover { /*changes appearance of list item when user hovers over it with cursor*/
   background-color: white;
   color: darkslategray;
 	border-radius: 7px;
