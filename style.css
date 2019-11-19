@@ -37,7 +37,6 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
 
 /* Header images for general layout - Rylie */
 .headerimages{
-  background-image: url(rivers.JPG);
   float: center;
   padding: 10px;
   width: 100%;
@@ -80,6 +79,7 @@ footer {
 	width: 100%;
   background-color: darkslategray;
 }
+/* IN PROGRESS - Rylie */
 .googleMap {
   width: 30px;
   height: 30px;
