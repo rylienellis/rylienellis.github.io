@@ -35,6 +35,13 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
 	border-radius: 7px;
 }
 
+/* Header images for general layout - Rylie */
+.headerimages{
+  float: center;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
   font-size: 40px;
