@@ -41,7 +41,9 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
   padding: 10px;
   width: 100%;
   height: auto;
+  image-orientation: 90turn;
 }
+
 /* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
 h1 {
   font-size: 40px;
@@ -67,7 +69,6 @@ h4 {
   font-family: sans-serif;
   color: lightgray
 }
-
 
 /* Footer owner: Rylie - Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
 footer {
