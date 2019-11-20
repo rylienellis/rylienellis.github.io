@@ -1,6 +1,7 @@
 /* Main Page */
 body{
   background-color: white;
+  margin: 10px;
 }
 
 header {
@@ -20,11 +21,11 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   border-radius: 7px; /*slightly rounded edges*/
 }
 
-li.navbarlist { /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
-	float: left;
+.navbarlist, .dropdown-content { /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
+  float: left;
 }
 
-li.navbarlist a {
+.navbarlist a, .dropdown-content a {
   display: block;
   padding: 10px 20px; 
   text-align: center;
@@ -33,10 +34,34 @@ li.navbarlist a {
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
 
-li.navbarlist a:hover { /*changes appearance of list item when user hovers over it with cursor*/
+.navbarlist a:hover, .dropdown-content a:hover { /*changes appearance of list item when user hovers over it with cursor*/
   background-color: white;
   color: darkslategray;
 	border-radius: 7px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ }
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* Header images for general layout - Rylie */
@@ -75,7 +100,13 @@ h4 {
   color: lightgray;
 }
 
-/* MISSION STATEMENT*/
+p{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
+/*MISSION STATEMENT*/
 .mission{
   background-color: #d0e1e1;
   text-align: center;
