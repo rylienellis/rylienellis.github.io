@@ -72,7 +72,7 @@ h3 {
 h4 { 
   font-size: 15px;
   font-family: sans-serif;
-  color: lightgray
+  color: lightgray;
 }
 
 /* MISSION STATEMENT*/
@@ -82,6 +82,68 @@ h4 {
   border: 1px solid darkslategray;
   padding: 5px 10px;
   border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+}
+
+p {
+  font-size: 20px;
+  font-family: "sans-serif";
+  text-align: center;
+  color: lightgrey;
+  letter-spacing: 2px;
+}
+
+body {
+  font-family:"sans-serif";
+}
+
+/* Container for flexboxes */
+/* Warnings raised in W3C for this section resolved. W3C does not recognize the use of webkit-flex or other types of -weblit- and thus gives warnings for something that will work just fine */
+
+.consulting{
+	margin: 50px;
+}
+
+.technology{
+	margin: 50px;
+}
+
+.gcc{
+	margin: 50px;
+}
+
+.ourexperience{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #507c7c;
+  line-height: 50px;
+	
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family: "sans-serif";
+  text-align:justify;
+  color: #4B4B4B;
+  letter-spacing: 2px;
+}
+
+/*Design and style credit: https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 
