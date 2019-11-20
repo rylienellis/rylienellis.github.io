@@ -100,10 +100,12 @@ h4 {
   color: lightgray;
 }
 
-p{
-  font-size: 15px;
-  font-family: sans-serif;
-  color: lightgray;
+p {
+  font-size: 20px;
+  font-family: "sans-serif";
+  text-align: center;
+  color: lightgrey;
+  letter-spacing: 2px;
 }
 
 /*MISSION STATEMENT*/
@@ -115,20 +117,12 @@ p{
   border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
 }
 
-p {
-  font-size: 20px;
-  font-family: "sans-serif";
-  text-align: center;
-  color: lightgrey;
-  letter-spacing: 2px;
-}
 
 body {
   font-family:"sans-serif";
 }
 
 /* Container for flexboxes */
-/* Warnings raised in W3C for this section resolved. W3C does not recognize the use of webkit-flex or other types of -weblit- and thus gives warnings for something that will work just fine */
 /*Home Page text and images. Owner Dan*/
 .consulting{
 	margin: 50px;
