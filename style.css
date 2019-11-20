@@ -47,7 +47,7 @@ li.navbarlist a:hover { /*changes appearance of list item when user hovers over 
   height: 100vh;
 }
 
-/* GENERAL STYLE FOR WEBSITE Onwer: Rylie */
+/* GENERAL STYLE FOR WEBSITE Onwer: Rylie and Dan*/
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -98,7 +98,7 @@ body {
 
 /* Container for flexboxes */
 /* Warnings raised in W3C for this section resolved. W3C does not recognize the use of webkit-flex or other types of -weblit- and thus gives warnings for something that will work just fine */
-
+/*Home Page text and images. Owner Dan*/
 .consulting{
 	margin: 50px;
 }
