@@ -104,8 +104,8 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 }
 
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: darkslategray;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -115,7 +115,7 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: darkslategray;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
