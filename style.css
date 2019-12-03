@@ -72,9 +72,9 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 }
 
 /*Hide Image*/
-/*.Slides{
+.Slides{
   display: none;
-}*/
+}
 
 /*Next and Previous*/
 .prev, .next {
