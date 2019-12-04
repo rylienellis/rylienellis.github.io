@@ -11,7 +11,7 @@ header {
 }
 
 /*navbar container and contents owner: Lauren*/
-ul.navbar { /*the beginning of my navigation bar, present on all pages of the site*/
+ul.navbar { /*the beginning of the navigation bar, present on all pages of the site*/
   /*base format derived from w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
   list-style-type: none;
   margin: 5px;
@@ -27,7 +27,8 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
 
 .navbarlist a, .dropdown-content a {
   display: block;
-  padding: 10px 20px; 
+  color: white;
+  padding: 10px 10px; 
   text-align: center;
   font-family: sans-serif;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
@@ -51,7 +52,6 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   color: darkslategray;
   background-color: inherit;
   font-family: inherit;
-  margin: 5px;
   text-decoration: none;
 }
 
