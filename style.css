@@ -285,9 +285,7 @@ article {
 	margin-top: 20px;
 	padding: 10px;
 	bottom: 0;
-	text-align: center;
 	width: 100%;
-	font-family: Georgia, Times, serif;
 	font-size: 10px;
   color: lightgray;
   border-radius: 7px;
@@ -307,6 +305,9 @@ article {
 @media (max-width: 800px) {
   .column{
     width: 100%;
+  }
+  .footer{
+    width: 100%
   }
 }
 
