@@ -29,7 +29,6 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   display: block;
   padding: 10px 20px; 
   text-align: center;
-  color: white;
   font-family: sans-serif;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
 }
@@ -47,10 +46,9 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   font-size: 16px;
   font: sans-serif;
   border: none;
-  border-radius: 7px;
+  /*border-radius: 7px; may add this back, trying to make the dropdown squared*/
   outline: none;
   color: darkslategray;
-  padding: 10px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 5px;
@@ -67,7 +65,6 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   z-index: 1;
   min-width: 100px;
   border-radius: 7px;
-
 }
 
 .dropdown-content a {
@@ -76,7 +73,7 @@ ul.navbar { /*the beginning of my navigation bar, present on all pages of the si
   text-decoration: none;
   display: block;
   text-align: left;
- }
+}
 
 .dropdown-content a:hover {
   background-color: #ddd;
