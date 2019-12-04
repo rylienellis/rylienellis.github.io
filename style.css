@@ -28,7 +28,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 .navbarlist a, .dropdown-content a {
   display: block;
   color: white;
-  padding: 10px 10px; 
+  padding: 10px 20px 10px 20px; 
   text-align: center;
   font-family: sans-serif;
   text-decoration: none; /*this removes the underline, which looks very ugly if left there*/
@@ -47,7 +47,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   font-size: 16px;
   font: sans-serif;
   border: none;
-  /*border-radius: 7px; may add this back, trying to make the dropdown squared*/
+  border-radius: 7px;
   outline: none;
   color: darkslategray;
   background-color: inherit;
