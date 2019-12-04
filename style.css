@@ -189,7 +189,7 @@ h4 {
 
 p {
   font-size: 20px;
-  font-family: "sans-serif";
+  font-family: sans-serif;
   text-align: center;
   color: lightgrey;
   letter-spacing: 2px;
@@ -250,8 +250,8 @@ article {
   letter-spacing: 2px;
 }
 
-/*Design and style credit: https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
-@media (max-width: 600px) {
+/* Design and style credit: https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
+@media (max-width: 800px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -260,17 +260,23 @@ article {
 
 
 /* Footer owner: Rylie - Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
-footer { /* Add RESPONSIVE DESIGN */
-  columns: 50px 3;
-  column-rule: 5px lightgray;
-  column-width: 33.33%;
-  margin-top: 20px;
-  padding: 10px;
-	text-align: center;
-	width: 100%;
-  background-color: darkslategray;
-  border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+@media (max-width:800px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    columns: 50px 3;
+    column-rule: 5px lightgray;
+    column-width: 33.33%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: darkslategray;
+    border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+  }
+
 }
+
 /* IN PROGRESS - Rylie */
 .googleMap {
   width: 50px;
