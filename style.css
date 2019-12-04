@@ -264,9 +264,9 @@ article {
   .footer {
     position: fixed;
     bottom: 0;
-    columns: 50px 3;
+    /* columns: 50px 3;
     column-rule: 5px lightgray;
-    column-width: 33.33%;
+    column-width: 33.33%; */
     margin-top: 20px;
     padding: 10px;
     text-align: center;
