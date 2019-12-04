@@ -260,34 +260,36 @@ article {
 
 
 /* Footer owner: Rylie */
-@media (max-width: 800px) {
-  .footer {
-    position: fixed;
-    bottom: 0;
-    columns: 50px 3;
-    column-rule: 5px lightgray;
-    column-width: 33.33%;
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    background-color: darkslategray;
-    border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
-  }
-  .column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
-    float: left;
-    width: 31.33%;
-    padding: 25px;
-    margin: 1%;
-    border-radius: 5px;
-    background-color: powderblue;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  /* columns: 50px 3;
+  column-rule: 5px lightgray;
+  column-width: 33.33%; */
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: darkslategray;
+  border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+}
+.column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
+  float: left;
+  width: 31.33%;
+  padding: 25px;
+  margin: 1%;
+  border-radius: 5px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 800px) {
+  .column{
+    width: 100%;
+  }
 }
 
 /* IN PROGRESS - Rylie */
