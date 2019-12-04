@@ -288,6 +288,7 @@ footer {
 	width: 100%;
 	font-size: 10px;
   color: lightgray;
+  background-color: slategray;
   border-radius: 7px;
 }
 .column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
