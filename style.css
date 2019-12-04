@@ -288,16 +288,16 @@ article {
 /* Footer owner: Rylie */
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  columns: 50px 3;
-  column-rule: 5px lightgray;
-  column-width: 33.33%;
-  margin-top: 20px;
-  padding: 10px;
-  width: 100%;
-  background-color: darkslategray;
-  border-radius: 7px; /*slightly rounded edges to be consistent with navbar*/
+
+	margin-top: 20px;
+	padding: 10px;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-family: Georgia, Times, serif;
+	font-size: 10px;
+  color: lightgray;
+  border-radius: 7px;
 }
 .column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
   float: left;
@@ -305,7 +305,6 @@ article {
   padding: 25px;
   margin: 1%;
   border-radius: 5px;
-  
 }
 .row:after {
   content: "";
