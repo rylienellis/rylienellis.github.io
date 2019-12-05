@@ -43,7 +43,7 @@ header {
   text-align: center;
   background-color: rgb(235, 235, 235);
   padding: 10px;
-  margin: 5px;
+margin: 5px;
   border-radius: 7px;
 }
 
@@ -326,7 +326,7 @@ p.information {
 }
 /*END of footer */
 
-/*OUR PARTNERS PAGE*/
+/*****OUR PARTNERS PAGE******/
 
 /* INTERACTIVE MAP / Owner: Rylie */
 .interactiveMap {
@@ -346,11 +346,11 @@ p.information {
 }
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 20px;
   background-color:  #f1f1f1;
   text-align: center;
-  float: center;
+  object-fit: contain;
   border-radius: 7px;
 }
 
@@ -406,4 +406,5 @@ p.tabcontent #Dan #Rylie #Lauren {
 }
 
 
+}
 /*End of TABS CSS*/
