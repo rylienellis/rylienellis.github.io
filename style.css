@@ -405,9 +405,9 @@ p.information {
 }
 
 p.tabcontent {
-  color: #262626;
-  text-align: left;
-  font-size: 14px;
+  color: #262626 !important;
+  text-align: left !important;
+  font-size: 14px !important;
 }
 
 /*End of TABS CSS*/
