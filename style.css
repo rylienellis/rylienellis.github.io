@@ -368,9 +368,9 @@ p.information {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; 
+  max-width: 90%; 
   height: 100%;
-  padding: 10px 20px;
+  padding: 10px;
   margin: 10px;
   border: solid darkslategray;
 } 
