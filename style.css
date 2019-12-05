@@ -91,6 +91,24 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   display: block;
 }
 
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .navbar li a {
+    float: left;
+    padding: 15px;
+  }
+
+@media screen and (max-width: 400px) {
+  .navbar li a {
+    text-align: center;
+    float: none;
+  }
+}
 
 /*End of Lauren's navbar*/
 
