@@ -404,7 +404,7 @@ p.information {
   margin: 5px;
 }
 
-p.tabcontent {
+p#Dan {
   color: #262626 !important;
   text-align: left !important;
   font-size: 14px !important;
