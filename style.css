@@ -312,6 +312,9 @@ p.information {
   display: table;
   clear: both;
 }
+a {
+  float: center;
+}
 /* @media (max-width: 800px) {
   .column{
     width: 100%;
