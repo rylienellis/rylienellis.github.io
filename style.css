@@ -5,6 +5,7 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   color: darkslategray;
+
 }
 h2 {
   font-size: 30px;
@@ -37,14 +38,6 @@ header {
   text-align:center;
   padding-top:20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-.centered{
-  text-align: center;
-  background-color: rgb(235, 235, 235);
-  padding: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 7px;
 }
 
 /*HOME PAGE*/
@@ -350,21 +343,17 @@ p.information {
 /*OUR TEAM PAGE*/
 
 /*TABS on Our Team page, Owner: Lauren*/
-/*Inspiration from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs*/
 /* Style the tab */
 .tab {
-  float: left;
+  overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: 30%;
-  height: 300px;
   border-radius: 7px;
   margin: 5px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  display: block;
   background-color: inherit;
   color: darkslategray;
   font-family: sans-serif;
@@ -389,12 +378,11 @@ p.information {
 
 /* Style the tab content */
 .tabcontent {
-  float: left;
+  /*display: none;*/
   padding: 6px 12px;
   border: 1px solid #ccc;
-  border-left: none;
-  width: 70%;
-  height: 300px;
+  border-top: none;
+
 }
 
 /*End of TABS CSS*/
