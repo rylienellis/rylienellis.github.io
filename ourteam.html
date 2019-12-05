@@ -36,13 +36,18 @@
 <!--TABS Section framework: Lauren-->
 <!--Inspired by https://www.w3schools.com/howto/howto_js_tabs.asp-->
 <div class="tab">
+    <button class="tablinks" onclick="openName(event, 'Hey there!')" id="defaultOpen">Hey there!</button>
     <button class="tablinks" onclick="openName(event, 'Dan')">Dan</button>
     <button class="tablinks" onclick="openName(event, 'Rylie')">Rylie</button>
     <button class="tablinks" onclick="openName(event, 'Lauren')">Lauren</button>
 </div>
 
 
-<!--Tab content for each team member-->
+<!--Tab content for default tab and each team member-->
+<div id="Hey there" class="tabcontent">
+    <h3>Hey there!</h3>
+    <p>Thanks for stopping by! We'd like to briefly introduce ourselves, just so you can get to know us a bit better. Take a peek at the following tabs to see what we're about.</p>
+</div>
 <div id="Dan" class="tabcontent">
     <h3>Dan</h3>
     <p>Dan the man!!</p>
