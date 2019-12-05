@@ -348,7 +348,10 @@ p.information {
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
   margin-top: 50px;
+  padding: 20px;
   background-color: lightgray;
+  text-align: center;
+  float: center;
 }
 
 /*OUR TEAM PAGE*/
