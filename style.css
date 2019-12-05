@@ -389,8 +389,9 @@ p.information {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
-  border-top: none;
-
+  border-radius: 7px;
+  color: darkgray;
+  text-align: left;
 }
 
 /*End of TABS CSS*/
