@@ -5,7 +5,6 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   color: darkslategray;
-
 }
 h2 {
   font-size: 30px;
@@ -42,6 +41,10 @@ header {
 .centered{
   text-align: center;
   background-color: rgb(235, 235, 235);
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 7px;
 }
 
 /*HOME PAGE*/
