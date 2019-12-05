@@ -386,7 +386,6 @@ p.information {
   background-color: #f1f1f1;
   border-radius: 7px;
   margin: 5px;
-  padding: 5px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -401,7 +400,6 @@ p.information {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
