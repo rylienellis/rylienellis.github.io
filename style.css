@@ -403,6 +403,27 @@ p.information {
 p.tabcontent {
   color: darkgray;
   text-align: left;
+}
+
+.intro {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+/*h2.intro {
+  text-align: center;
 
 }
+
+p.intro {
+  color: 
+}
+*/
+
+
+
 /*End of TABS CSS*/
