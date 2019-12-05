@@ -352,7 +352,15 @@ p.information {
   float: left;
 }
 
-/* INTERACTIVE MAP OF CLIENTS / Owner: Rylie */
+/*end of footer */
+
+/*OUR PARTNERS PAGE */
+
+/* INTERACTIVE MAP / Owner: Rylie */
+.mapPosition {
+  float: center;
+
+}
 .interactiveMap {
   position: relative;
   padding: 25%;
