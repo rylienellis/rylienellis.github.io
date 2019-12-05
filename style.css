@@ -357,10 +357,7 @@ p.information {
 /*OUR PARTNERS PAGE */
 
 /* INTERACTIVE MAP / Owner: Rylie */
-.mapPosition {
-  float: center;
 
-}
 .interactiveMap {
   position: relative;
   padding: 25%;
@@ -368,7 +365,10 @@ p.information {
 } 
 .interactiveMap iframe {
   position: absolute;
-  float: center; 
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
   /* top: 0; 
   left: 0;  */
   width: 90%; 
