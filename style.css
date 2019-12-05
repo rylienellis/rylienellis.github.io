@@ -334,6 +334,7 @@ p.information {
 /* INTERACTIVE MAP OF CLIENTS / Owner: Rylie */
 .interactiveMap {
   position: relative;
+  float: center;
   padding: 25%;
   height: 0;
   /* max-width: 100%; */
