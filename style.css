@@ -43,8 +43,7 @@ header {
   text-align: center;
   background-color: rgb(235, 235, 235);
   padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
   border-radius: 7px;
 }
 
@@ -102,7 +101,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  min-width: 100px;
+  min-width: 50px;
   border-radius: 7px;
 }
 .dropdown-content a {
@@ -342,7 +341,7 @@ p.information {
 /* End of Services Page - Owner: Dan 12.05.19 */
 
 
-/*OUR PARTNERS PAGE*/
+/*****OUR PARTNERS PAGE******/
 
 /* INTERACTIVE MAP / Owner: Rylie */
 .interactiveMap {
@@ -362,12 +361,17 @@ p.information {
 }
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 20px;
   background-color:  #f1f1f1;
   text-align: center;
-  float: center;
   border-radius: 7px;
+}
+.imgFit{
+  max-width: 100%;
+  height: auto;
+  /* object-fit: contain; */
+  object-position: 50% 50%; 
 }
 
 /*OUR TEAM PAGE*/
@@ -416,8 +420,9 @@ p.information {
 }
 
 p.tabcontent {
-  color: darkgray;
+  color: #262626;
   text-align: left;
-
+  font-size: 14px;
 }
+
 /*End of TABS CSS*/
