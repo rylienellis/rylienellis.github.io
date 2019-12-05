@@ -340,10 +340,9 @@ p.information {
 .interactiveMap iframe {
   position: absolute; 
   top: 0; 
-  left: 0;
-  float: center; 
-  width: 100%; 
-  height: 90%;
+  left: 0; 
+  width: 500; 
+  height: 400;
   padding: 10px;
   margin: 10px;
   border: solid darkslategray;
