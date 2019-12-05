@@ -358,7 +358,11 @@ p.information {
 
 /* INTERACTIVE MAP / Owner: Rylie */
 .mapPosition {
-  float: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px; /* to get the center of the object in the center, not sure the corner */
+  margin-left: -100px;
 
 }
 .interactiveMap {
