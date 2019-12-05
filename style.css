@@ -292,6 +292,13 @@ footer {
   background-color: darkslategray;
   border-radius: 7px;
 }
+p.information {
+  text-align: left;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: lightgray;
+}
 .column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
   float: left;
   width: 31.33%;
