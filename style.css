@@ -390,8 +390,12 @@ p.information {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-radius: 7px;
-  color: darkgray;
-  text-align: left;
+  margin: 5px;
 }
 
+p.tabcontent {
+  color: darkgray;
+  text-align: left;
+
+}
 /*End of TABS CSS*/
