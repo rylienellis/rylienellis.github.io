@@ -91,12 +91,17 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   display: block;
 }
 
+/*makes sure navbar icon appears same on different screen sizes*/
+.navbar a.icon {
+  float: right;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
 /*hide links other than first one when screen is less than 600px wide
 Inspired by https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child), .dropdown {
-    display: none;
-  }
   .navbar a.icon {
     float: right;
     display: block;
