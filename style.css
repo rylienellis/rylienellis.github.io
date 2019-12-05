@@ -399,12 +399,11 @@ p.information {
   margin: 5px;
 }
 
-p.tabcontent #Dan #Rylie #Lauren {
+p.tabcontent {
   color: #262626;
   text-align: left;
   font-size: 14px;
 }
 
 
-}
 /*End of TABS CSS*/
