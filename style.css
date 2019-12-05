@@ -385,6 +385,8 @@ p.information {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -392,7 +394,7 @@ p.information {
   background-color: inherit;
   color: darkslategray;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   float: left;
   border: none;
   outline: none;
