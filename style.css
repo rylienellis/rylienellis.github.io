@@ -402,12 +402,16 @@ p.information {
   border: 1px solid #ccc;
   border-radius: 7px;
   margin: 5px;
-}
 
-p.tabcontent {
   color: #262626;
   text-align: left;
   font-size: 14px;
 }
+
+/*p.tabcontent {
+  color: #262626;
+  text-align: left;
+  font-size: 14px;
+}*/
 
 /*End of TABS CSS*/
