@@ -350,8 +350,11 @@ p.information {
   padding: 20px;
   background-color:  #f1f1f1;
   text-align: center;
-  object-fit: contain;
   border-radius: 7px;
+}
+.imgFit{
+  object-fit: contain;
+  object-position: 50% 50%; 
 }
 
 /*OUR TEAM PAGE*/
