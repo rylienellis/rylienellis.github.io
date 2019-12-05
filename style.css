@@ -399,9 +399,10 @@ p.information {
   margin: 5px;
 }
 
-p.tabcontent {
-  color: darkgray;
+p.tabcontent #Dan #Rylie #Lauren {
+  color: #262626;
   text-align: left;
+  font-size: 14px;
 }
 
 
