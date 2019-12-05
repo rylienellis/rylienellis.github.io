@@ -393,12 +393,12 @@ p.information {
   background-color: inherit;
   color: darkslategray;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 12px 14px;
   transition: 0.3s;
 }
 
