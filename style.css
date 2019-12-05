@@ -303,7 +303,6 @@ p.information {
 .column { /* Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
   float: left;
   width: 31.33%;
-  padding: 25px;
   margin: 1%;
   border-radius: 5px;
 }
@@ -311,9 +310,6 @@ p.information {
   content: "";
   display: table;
   clear: both;
-}
-a {
-  float: center;
 }
 /* @media (max-width: 800px) {
   .column{
