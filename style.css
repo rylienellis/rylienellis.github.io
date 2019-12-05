@@ -348,11 +348,12 @@ p.information {
   margin: 10px;
   border: solid darkslategray;
 } 
-/* small{
+small{
   position: absolute; 
   z-index: 40; 
   bottom: 0; 
   margin-bottom: -15px;
-} */
+}
 
 /* , .interactiveMap object, .interactiveMap iframe{ */
+  /* width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="GCC" */
