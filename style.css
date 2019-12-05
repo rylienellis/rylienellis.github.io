@@ -59,7 +59,6 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   text-decoration: none;
 }
 
-
 .dropdown-content {
   display: none;
   font: sans-serif;
@@ -91,6 +90,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   display: block;
 }
 
+/*
 @media screen and (max-width: 900px) {
   .navbar {
     width: 100%;
@@ -102,7 +102,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
     float: none;
     padding: 15px;
   }
-  
+
   .dropdown-content {
     z-index: 1;
   }
@@ -115,7 +115,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   .dropdown-content {
     z-index: 1;
   }
-}
+} */
 
 /*End of Lauren's navbar*/
 
