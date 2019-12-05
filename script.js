@@ -37,3 +37,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 // End of Moving Images - Owner: Dan //
+
+
+//Start of navbar, Owner: Lauren//
+//Inspiration from https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp//
+function myFunction() {
+  var x = document.getElementById("Laurensnavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
