@@ -372,8 +372,8 @@ p.information {
   position: absolute; 
   top: 0; 
   left: 0; 
-  width: 500; 
-  height: 400;
+  width: 90%; 
+  height: 100%;
   padding: 10px;
   margin: 10px;
   border: solid darkslategray;
