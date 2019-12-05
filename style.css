@@ -21,10 +21,12 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   border-radius: 7px; /*slightly rounded edges*/
 }
 
-.navbarlist, .dropdown-content { /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
+/*this keeps the links of the navigation bar to the left, rather than the default stacked*/
+.navbarlist, .dropdown-content { 
   float: left;
 }
 
+/*style for the dropdown*/
 .navbarlist a, .dropdown-content a {
   display: block;
   color: white;
@@ -35,7 +37,8 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   border-radius: 7px;
 }
 
-.navbarlist a:hover, .dropdown-content a:hover { /*changes appearance of list item when user hovers over it with cursor*/
+/*navbar dropdown style on hover*/
+.navbarlist a:hover, .dropdown-content a:hover {
   background-color: white;
   color: darkslategray;
 	border-radius: 7px;
@@ -55,6 +58,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   font-family: inherit;
   text-decoration: none;
 }
+
 
 .dropdown-content {
   display: none;
