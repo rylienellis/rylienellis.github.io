@@ -39,6 +39,14 @@ header {
   padding-top:20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+.centered{
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
 
 /*HOME PAGE*/
 
