@@ -43,7 +43,7 @@ header {
   text-align: center;
   background-color: rgb(235, 235, 235);
   padding: 10px;
-margin: 5px;
+  margin: 5px;
   border-radius: 7px;
 }
 
@@ -404,11 +404,10 @@ p.information {
   margin: 5px;
 }
 
-p#Dan p#Rylie p#Lauren {
+p.tabcontent {
   color: #262626;
   text-align: left;
   font-size: 14px;
 }
-
 
 /*End of TABS CSS*/
