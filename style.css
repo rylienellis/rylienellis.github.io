@@ -100,6 +100,8 @@ Inspired by https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.
   .navbar a.icon {
     float: right;
     display: block;
+    color: white;
+    text-decoration: none;
   }
 }
 
