@@ -19,6 +19,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   overflow: hidden;
   background-color: darkslategray;
   border-radius: 7px; /*slightly rounded edges*/
+  position: fixed;
 }
 
 /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
