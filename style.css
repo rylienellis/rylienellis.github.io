@@ -127,7 +127,7 @@ Links get displayed vertically on small screens*/
   }
   .navbar.responsive .dropdown {float: none;}
   .navbar.responsive .dropdown-content {position: relative;}
-  .navbar.responsive .dropdown .d.navbarlist {
+  .navbar.responsive .dropdown .navbarlist {
     display: block;
     width: 100%;
     text-align: left;
