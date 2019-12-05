@@ -185,7 +185,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 
 /*End of moving images slideshow Owner: Dan*/
 
-/* GENERAL STYLE FOR WEBSITE Onwer: Rylie and Dan 11.20.19*/
+/*GENERAL STYLE FOR WEBSITE Onwer: Rylie and Dan 11.20.19*/
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -315,14 +315,6 @@ p.information {
   display: table;
   clear: both;
 }
-/* @media (max-width: 800px) {
-  .column{
-    width: 100%;
-  }
-  .footer{
-    width: 100%
-  }
-} */
 
 /* IN PROGRESS - Rylie */
 .googleMap {
