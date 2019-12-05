@@ -19,7 +19,6 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
   overflow: hidden;
   background-color: darkslategray;
   border-radius: 7px; /*slightly rounded edges*/
-  position: fixed;
 }
 
 /*this keeps the links of the navigation bar to the left, rather than the default stacked*/
@@ -95,7 +94,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 /*hide links other than first one when screen is less than 600px wide
 Inspired by https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
 @media screen and (max-width: 600px) {
-  .navbar a:not(:first-child), .dropdown .navbarlist {
+  .navbar a:not(:first-child), .dropdown {
     display: none;
   }
   .navbar a.icon {
