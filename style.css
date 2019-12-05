@@ -96,10 +96,11 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
     width: 100%;
     height: auto;
     position: relative;
+
   }
   
   .navbar li a {
-    float: left;
+    float: none;
     padding: 15px;
   }
 
