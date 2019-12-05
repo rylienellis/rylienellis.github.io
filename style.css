@@ -150,7 +150,7 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 
 /*End of Lauren's navbar*/
 
-/*SCROLL IMAGES - Slideshow Owner: Dan 12.03.19*/
+/*Start of Scroll Images Slideshow - Owner: Dan 12.03.19*/
 .MovingImages {
   max-width: 1000px;
   position: relative;
@@ -245,6 +245,8 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 body {
   font-family:"sans-serif";
 }
+
+
 /*Container for flexboxes */
 /*Home Page text and images. Owner Dan*/
 .consulting{
@@ -287,6 +289,8 @@ article {
     flex-direction: column;
   }
 }
+/* End of container for flexboxes - Owner: Dan*/
+
 
 /*FOOTER / Owner: Rylie */
 
@@ -325,7 +329,18 @@ p.information {
   height: 50px;
   float: left;
 }
-/*END of footer */
+/* END of footer */
+
+/* Services Page - Owner: Dan 12.05.19 */
+
+.services {
+  margin: 50px;
+
+}
+
+
+/* End of Services Page - Owner: Dan 12.05.19 */
+
 
 /*OUR PARTNERS PAGE*/
 
