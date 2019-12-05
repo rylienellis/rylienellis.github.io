@@ -350,6 +350,7 @@ p.information {
   padding: 20px;
   background-color:  #f1f1f1;
   text-align: center;
+  object-fit: contain;
   border-radius: 7px;
 }
 
