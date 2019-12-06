@@ -124,7 +124,7 @@ header {
 .MovingImages {
   max-width: 1000px;
   position: relative;
-  margin: 50px;
+  margin: auto;
 }
 /* Hide Image */
 .Slides{
