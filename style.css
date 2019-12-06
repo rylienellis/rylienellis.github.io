@@ -49,7 +49,7 @@ header {
 /*HOME PAGE*/
 
 /*NAVBAR container and contents owner: Lauren*/
-ul.navbar { /*the beginning of the navigation bar, present on all pages of the site*/
+.navbar { /*the beginning of the navigation bar, present on all pages of the site*/
   /*base format derived from w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black */
   list-style-type: none;
   margin: 5px;
