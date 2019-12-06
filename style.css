@@ -378,10 +378,15 @@ p.information {
 
 /* TEAM PICTURE AS BACKGROUND / Owner: Rylie*/
 .meettheteam {
-  opacity: 0.6;
+  opacity: 0.8;
   background-size: cover;
   background-position: center;
-
+}
+p.imgcaption {
+  font-size: 35px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
 }
 
 
