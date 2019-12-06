@@ -322,7 +322,7 @@ p.information {
   top: 0;
   left: 0;
   width: 95%;
-  height: 200%;
+  height: 200px;
   padding: 10px;
   border: solid darkslategray;
   display: block;
