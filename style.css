@@ -502,6 +502,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color:lightgray;
+  color: darkslategray;
+  font-family: sans-serif;
   font-weight: bold;
 }
 .form {
