@@ -36,24 +36,34 @@
 </nav>
 
 <!--INQUIRY FORM /Owner: Rylie-->
-<!--Inspired by w3schools https://www.w3schools.com/howto/howto_css_contact_form.asp-->
-<div class="form">
-  <form action="/inquiries.html" method="POST"> <!--To save the inputs to local file-->
-    <label for="Name">Full Name</label> <!--What title the input has for user-->
-    <input type="text" id="Name" name="name" placeholder="Your name you wish you had but your mom didn't give you..">
+<!--Inspired by explanations by https://www.freecodecamp.org/news/a-step-by-step-guide-to-getting-started-with-html-forms-7f77ae4522b5/-->
+<script src="script.js"></script>
+  <div class="form">
+    <form action="/inquiries.html" method="POST"> <!--To save the inputs to local file-->
+      <label for="Name">Full Name</label> <!--What title the input has for user-->
+      <input type="text" id="Name" name="name" placeholder="Your name you wish you had but your mom didn't give you..">
 
-    <label for="Rating">How Great Did We Do?</label>
-    <select id="rating" name=rating> <!--select is for an option parameter (like a choice)-->
-      <option value="amazing">This was the best website i've ever seen</option>
-      <option value="horrible">You did better than most</option>
-      <option value="better">This website made me want to quit marking</option>
-    </select>
+      <label for="Rating">How Great Did We Do?</label>
+      <select id="Rating" name=rating> <!--select is for an option parameter (like a choice)-->
+        <option value="amazing">This was the best website i've ever seen</option>
+        <option value="horrible">You did better than most</option>
+        <option value="better">This website made me want to quit marking</option>
+      </select>
 
-    <label for="comments">Comments</label>
-    <textarea id="comments" name="comments" placeholder="Write something...nice please. We are all fragile. " style="height:200px"></textarea>
+      <label for="comments">Comments</label>
+      <textarea id="Comments" name="comments" placeholder="Write something...nice please. We are all fragile. " style="height:200px"></textarea>
 
-    <input type="submit" value="Submit"> <!--Sends the form out-->
-  </form>
+      <button onclick="getForm();">Submit</button>
+
+      <input type="submit" value="Submit"> 
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+<div class="tab">
+    <script src="script.js"></script>
+    <button class="tablinks" onclick="openName(event, 'Dan')">Dan</button>
+
 </div>
 
 <!--FOOTER section to incorporate responsive design and separate columns of information / Owner: Rylie-->

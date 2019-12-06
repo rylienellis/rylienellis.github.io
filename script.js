@@ -1,11 +1,16 @@
-// Google maps clip for footer - Owner: Rylie //
-function myMap() { 
-var mapID= { 
-    center: new google.maps.LatLng(44.355000, -78.742930), 
-    zoom: 5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"), mapID);
+// INQUIRY FORMS RETURN - Owner: Rylie //
+function getForm() {
+  var fields={name, rating, comments};
+  document.addEventListener("DOMContentLoaded", function() {
+    fields.name = document.getElementById('Name');
+    fields.name = document.getElementById('Rating');
+    fields.name = document.getElementById('Comments');
+
+    alert('Thank you for your feedback! We will not be checking it :)')
+  })
 }
+
+// END of Inquiry forms
 
 // Moving Images - Owner: Dan //
 var slideIndex = 1;

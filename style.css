@@ -307,22 +307,30 @@ p.information {
 
 /*****OUR PARTNERS PAGE******/
 
-/* INTERACTIVE MAP / Owner: Rylie */
-.interactiveMap {
+/* INTERACTIVE MAP / Owner: Rylie. Lauren just played with sizing */
+/*.interactiveMap {
   position: relative;
   padding: 25%;
   height: 0;
-} 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+} */
 .interactiveMap iframe {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 0;
   padding: 10px;
-  margin: 10px;
   border: solid darkslategray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
 }
+
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
   margin-top: 20px;
