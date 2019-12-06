@@ -128,7 +128,7 @@ header {
 }
 /* Hide Image */
 .Slides{
-  display: none;
+  display: hide;
 }
 /* Next and Previous */
 .prev, .next {
