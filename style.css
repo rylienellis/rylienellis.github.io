@@ -308,7 +308,7 @@ p.information {
 /*****OUR PARTNERS PAGE******/
 
 /* INTERACTIVE MAP / Owner: Rylie. Lauren just played with sizing */
-.interactiveMap {
+/*.interactiveMap {
   position: relative;
   padding: 25%;
   height: 0;
@@ -316,7 +316,7 @@ p.information {
   margin-left: auto;
   margin-right: auto;
   border-radius: 7px;
-} 
+} */
 .interactiveMap iframe {
   position: absolute;
   top: 0;
