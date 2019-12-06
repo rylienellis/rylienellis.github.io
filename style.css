@@ -382,8 +382,11 @@ p.information {
 /*OUR TEAM PAGE*/
 
 /* TEAM PICTURE AS BACKGROUND / Owner: Rylie*/
-
-
+.meettheteam {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
 
 /*TABS on Our Team page, Owner: Lauren*/
 /* Style the tab */
