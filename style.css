@@ -120,33 +120,6 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*
-@media screen and (max-width: 900px) {
-  .navbar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  .navbar li a {
-    float: none;
-    padding: 15px;
-  }
-
-  .dropdown-content {
-    z-index: 1;
-  }
-
-@media screen and (max-width: 400px) {
-  .navbar li a {
-    text-align: center;
-    float: none;
-  }
-  .dropdown-content {
-    z-index: 1;
-  }
-} */
-
 /*End of Lauren's navbar*/
 
 /*Start of Scroll Images Slideshow - Owner: Dan 12.03.19*/
@@ -446,7 +419,7 @@ p.tabcontentptag {
 
 /*End of TABS CSS*/
 
-/*What's New blog post layout and content, Owner: Lauren*/
+/*What's New blog post & Partner Reviews layout and content, Owner: Lauren*/
 .blogpost {
   text-align: left;
   background-color: white;
@@ -471,9 +444,62 @@ p.blogdate {
   padding-bottom: 10px;
 }
 
-p.blogtext {
+p.blogtext{
   color: #262626;
   font-size: 12px;
   font-family: sans-serif;
   text-align: left;
+}
+.partnerreview {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid darkslategray;
+}
+
+h4.reviewtitle {
+  color: darkslategray;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+p.reviewtext {
+  color: darkslategray;
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* INQUIRY PAGE / Owner: Rylie */
+
+/*Creating forms using HTML and CSS inspired by  https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid darkslategray;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin: 10px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:#dfecec;
+  color: darkslategray;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* changes the cursor over that block to a pointer */
+}
+input[type=submit]:hover {
+  background-color:lightgray;
+}
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
