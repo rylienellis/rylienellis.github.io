@@ -308,7 +308,7 @@ p.information {
 /*****OUR PARTNERS PAGE******/
 
 /* INTERACTIVE MAP / Owner: Rylie */
-.interactiveMap {
+/*.interactiveMap {
   position: relative;
   padding: 25%;
   height: 0;
@@ -322,7 +322,7 @@ p.information {
   padding: 10px;
   margin: 10px;
   border: solid darkslategray;
-}
+}*/
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
   margin-top: 20px;
@@ -331,7 +331,7 @@ p.information {
   text-align: center;
   border-radius: 7px;
 }
-.imgFit{
+.imgFit, .interactiveMap iframe, .interactiveMap {
   max-width: 100%;
   height: auto;
   /* object-fit: contain; */
