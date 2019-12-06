@@ -315,6 +315,7 @@ p.information {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 7px;
 } 
 .interactiveMap iframe {
   position: absolute;
@@ -327,6 +328,7 @@ p.information {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 7px;
 }
 
 /*CUSTOMER REVIEW / Owner: Rylie*/
