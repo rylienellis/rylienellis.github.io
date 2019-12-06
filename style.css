@@ -439,11 +439,17 @@ p.tabcontentptag p.blogtext {
 
 h4.blogtitle {
   color: darkslategray;
-  font-size: 15px;
+  font-size: 17px;
   font-family: sans-serif;
 }
 
 p.blogdate {
+  color: #262626;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+p.blogtext {
   color: #262626;
   font-size: 12px;
   font-family: sans-serif;
