@@ -481,7 +481,7 @@ p.reviewtext {
 
 /*Creating forms using HTML and CSS inspired by  https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
-input[type=text], select, textarea {
+input[type=text], select, textarea { /*for input elements*/
   width: 100%;
   padding: 20px;
   border: 1px solid darkslategray;
@@ -490,7 +490,7 @@ input[type=text], select, textarea {
   margin: 10px;
   resize: vertical;
 }
-input[type=submit] {
+input[type=submit] { /*for the submit button*/ 
   background-color: darkslategray;
   font-weight: bold;
   font-family: sans-serif;
@@ -500,7 +500,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer; /* changes the cursor over that block to a pointer */
 }
-input[type=submit]:hover {
+input[type=submit]:hover { /*when the user hovers over the submit button to know its active*/
   background-color:lightgray;
   color: darkslategray;
   font-family: sans-serif;
@@ -515,7 +515,6 @@ input[type=submit]:hover {
   color: darkslategray;
 
 }
-
 #comments, #rating, #Name {
   font-size: 15px;
   font-family: sans-serif;
