@@ -431,6 +431,12 @@ p.information {
   margin: 5px;
 }
 
+p.jobtitle {
+  font-size: 16;
+  font-family: sans-serif;
+  color: #404040;
+}
+
 p.tabcontentptag {
   text-align: left;
   font-size: 14px;
