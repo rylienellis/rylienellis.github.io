@@ -488,8 +488,10 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 input[type=submit] {
-  background-color:#dfecec;
-  color: darkslategray;
+  background-color: darkslategray;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -512,6 +514,5 @@ input[type=submit]:hover {
 #comments, #rating, #Name {
   font-size: 15px;
   font-family: sans-serif;
-  font-weight: bold;
   color: #507c7c;
 }
