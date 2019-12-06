@@ -314,6 +314,7 @@ p.information {
   height: 0;
 } 
 .interactiveMap iframe {
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto; 
