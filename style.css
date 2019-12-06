@@ -439,7 +439,7 @@ p.imgcaption {
   margin: 5px;
 }
 
-p.tabcontentptag p.blogtext {
+p.tabcontentptag {
   text-align: left;
   font-size: 14px;
   color: #262626
@@ -475,4 +475,5 @@ p.blogtext {
   color: #262626;
   font-size: 12px;
   font-family: sans-serif;
+  text-align: left;
 }
