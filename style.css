@@ -317,7 +317,7 @@ p.information {
   margin-right: auto;
 } 
 .interactiveMap iframe {
-  /*position: absolute;*/
+  position: absolute;
   top: 0;
   left: 0;
   width: 90%;
