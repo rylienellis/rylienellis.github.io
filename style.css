@@ -419,10 +419,12 @@ p.information {
   margin: 5px;
 }
 
-p.tabcontentptag {
+p.tabcontentptag p.blogtext {
   text-align: left;
   font-size: 14px;
   color: #262626
 }
 
 /*End of TABS CSS*/
+
+/*What's New blog post layout and content, Owner: Lauren*/
