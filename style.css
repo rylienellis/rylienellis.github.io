@@ -435,6 +435,7 @@ p.jobtitle {
   font-size: 16;
   font-family: sans-serif;
   color: #404040;
+  font-style: italic;
 }
 
 p.tabcontentptag {
@@ -466,6 +467,7 @@ p.blogdate {
   color: #262626;
   font-size: 10px;
   font-family: sans-serif;
+  font-style: italic;
   padding-bottom: 10px;
 }
 
