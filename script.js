@@ -9,8 +9,7 @@ function getForm() {
     alert('Thank you for your feedback! We will not be checking it :)')
   })
 
-
-
+// END of Inquiry forms
 
 // Moving Images - Owner: Dan //
 var slideIndex = 1;
