@@ -67,3 +67,5 @@ document.getElementById("defaultOpen").click();
 
 
 //End of TABS//
+
+// Start of dropdown menu anchor point for services page//
