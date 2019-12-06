@@ -314,7 +314,17 @@ p.information {
   height: 0;
 } 
 .interactiveMap iframe {
-  position: absolute;
+  max-width: 100%;
+  height: auto;
+  /* object-fit: contain; */
+  object-position: 50% 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  border: solid darkslategray;
+}
+  
+  /*position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -322,7 +332,7 @@ p.information {
   padding: 10px;
   margin: 10px;
   border: solid darkslategray;
-}
+}*/
 /*CUSTOMER REVIEW / Owner: Rylie*/
 .customerreviews {
   margin-top: 20px;
