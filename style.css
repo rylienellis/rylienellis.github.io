@@ -122,7 +122,8 @@ header {
 
 /* Start of Scroll Images Slideshow / Owner: Dan 12.03.19 */
 .MovingImages {
-  max-width: 1000px;
+  width: 1000px;
+  height: 500px;
   position: relative;
   margin: auto;
 }
