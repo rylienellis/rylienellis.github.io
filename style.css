@@ -23,7 +23,7 @@ h4 {
   font-family: sans-serif;
   color: lightgray;
 }
-p {
+p, .ourexperience {
   font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
@@ -229,14 +229,6 @@ body {
 }
 .gcc{
 	margin: 50px;
-}
-.ourexperience{
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: #507c7c;
-  line-height: 50px;
-	
 }
 section {
   display: -webkit-flex;
