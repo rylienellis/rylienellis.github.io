@@ -38,7 +38,7 @@
 <!--INQUIRY FORM /Owner: Rylie-->
 <!--Inspired by explanations by https://www.freecodecamp.org/news/a-step-by-step-guide-to-getting-started-with-html-forms-7f77ae4522b5/-->
 <div class="form">
-  <form action="/inquiries.html" method="POST"> <!--To save the inputs to local file-->
+  <form action="/inquiries.html"> <!--To save the inputs to local file-->
     <label for="Name">Full Name</label> <!--What title the input has for user-->
     <input type="text" id="Name" name="name" placeholder="Your name you wish you had but your mom didn't give you..">
 
@@ -52,9 +52,10 @@
     <label for="comments">Comments</label>
     <textarea id="Comments" name="comments" placeholder="Write something...nice please. We are all fragile. " style="height:200px"></textarea>
 
-    <button input type="submit" onclick="location.href='inquiries.html'">Submit</button>
+    <!-- <button input type="submit" onclick="location.href='inquiries.html'">Submit</button> -->
 
-    <!-- <input type="submit" value="Submit">  -->
+    <input type="submit" value="Submit"> ,
+    
   </form>
 </div>
 
