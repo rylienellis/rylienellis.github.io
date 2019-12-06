@@ -8,6 +8,7 @@ function getForm() {
 
     alert('Thank you for your feedback! We will not be checking it :)')
   })
+}
 
 // END of Inquiry forms
 
