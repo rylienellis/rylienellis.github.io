@@ -387,6 +387,10 @@ p.imgcaption {
   font-family: sans-serif;
   text-align: center;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -434,7 +438,7 @@ p.imgcaption {
   margin: 5px;
 }
 
-p.tabcontentptag p.blogtext {
+p.tabcontentptag {
   text-align: left;
   font-size: 14px;
   color: #262626
@@ -470,4 +474,5 @@ p.blogtext {
   color: #262626;
   font-size: 12px;
   font-family: sans-serif;
+  text-align: left;
 }
