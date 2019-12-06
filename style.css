@@ -309,7 +309,7 @@ p.information {
 
 /* INTERACTIVE MAP / Owner: Rylie */
 .interactiveMap {
-  /*position: relative;*/
+  position: relative;
   padding: 25%;
   height: 0;
   display: block;
@@ -320,10 +320,10 @@ p.information {
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 95%;
   height: 100%;
   padding: 10px;
-  margin: 10px;
+  /*margin: 10px;*/
   border: solid darkslategray;
   display: block;
   margin-left: auto;
