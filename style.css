@@ -312,7 +312,9 @@ p.information {
   position: relative;
   padding: 25%;
   height: 0;
-  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 } 
 .interactiveMap iframe {
   position: absolute;
