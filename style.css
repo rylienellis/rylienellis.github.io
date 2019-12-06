@@ -24,11 +24,11 @@ h4 {
   color: lightgray;
 }
 p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: sans-serif;
-  text-align: left;
-  color: lightgrey;
-  letter-spacing: 2px;
+  font-weight: bold;
+  color: #507c7c;
+  letter-spacing: 1px;
 }
 body{
   background-color: white;
