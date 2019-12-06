@@ -446,7 +446,7 @@ p.tabcontentptag {
 
 /*End of TABS CSS*/
 
-/*What's New blog post layout and content, Owner: Lauren*/
+/*What's New blog post & Partner Reviews layout and content, Owner: Lauren*/
 .blogpost {
   text-align: left;
   background-color: white;
@@ -471,9 +471,33 @@ p.blogdate {
   padding-bottom: 10px;
 }
 
-p.blogtext {
+p.blogtext{
   color: #262626;
   font-size: 12px;
   font-family: sans-serif;
   text-align: left;
+}
+
+.partnerreview {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid darkslategray;
+}
+
+h4.reviewtitle {
+  color: darkslategray;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+p.reviewtext {
+  color: darkslategray;
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
 }
