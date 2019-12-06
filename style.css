@@ -428,3 +428,23 @@ p.tabcontentptag p.blogtext {
 /*End of TABS CSS*/
 
 /*What's New blog post layout and content, Owner: Lauren*/
+.blogpost {
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid darkslategray;
+}
+
+h4.blogtitle {
+  color: darkslategray;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+p.blogdate {
+  color: #262626;
+  font-size: 12px;
+  font-family: sans-serif;
+}
