@@ -517,7 +517,7 @@ input[type=submit]:hover { /*when the user hovers over the submit button to know
   color: darkslategray;
 
 }
-#comments, #rating, #Name {
+#Comments, #Rating, #Name {
   font-size: 15px;
   font-family: sans-serif;
   color: #507c7c;
