@@ -376,6 +376,16 @@ p.information {
 
 /*OUR TEAM PAGE*/
 
+/* TEAM PICTURE AS BACKGROUND / Owner: Rylie*/
+.meettheteam {
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
 /*TABS on Our Team page, Owner: Lauren*/
 /* Style the tab */
 .tab {
