@@ -1,17 +1,3 @@
-// INQUIRY FORMS RETURN - Owner: Rylie //
-function getForm() {
-  var fields={name, rating, comments};
-  document.addEventListener("DOMContentLoaded", function() {
-    fields.name = document.getElementById('Name');
-    fields.name = document.getElementById('Rating');
-    fields.name = document.getElementById('Comments');
-
-    alert('Thank you for your feedback! We will not be checking it :)')
-  })
-}
-
-// END of Inquiry forms
-
 // Moving Images - Owner: Dan //
 var slideIndex = 1;
 showSlides(slideIndex);
