@@ -504,20 +504,20 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-#Name {
-  font-size: 20px;
+/* #Name {
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
   color: #507c7c;
 }
 #rating {
-  font-size: 20px;
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
   color: #507c7c;
-}
-#comments {
-  font-size: 20px;
+} */
+#comments #rating #Name {
+  font-size: 15px;
   font-family: sans-serif;
   font-weight: bold;
   color: #507c7c;
