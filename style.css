@@ -378,17 +378,19 @@ p.information {
 
 /* TEAM PICTURE AS BACKGROUND / Owner: Rylie*/
 .meettheteam {
+  position: relative;
+  display: inline-block;
   opacity: 0.8;
   background-size: cover;
   background-position: center;
 }
-p.imgcaption {
+.meettheteam .p.imgcaption {
   padding-top: 200px;
   font-size: 35px;
   font-family: sans-serif;
   text-align: center;
   color: white;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
