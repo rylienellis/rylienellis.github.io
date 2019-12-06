@@ -122,6 +122,7 @@ header {
 /*End of Lauren's navbar*/
 
 /*Start of Scroll Images Slideshow - Owner: Dan 12.03.19*/
+/*Design credits to https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 .MovingImages {
   max-width: 1000px;
   position: relative;
