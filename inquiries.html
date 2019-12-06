@@ -39,17 +39,17 @@
 <div class="form">
   <form action="inquiriesform.php"> <!--To save the inputs to local file-->
     <label for="Name">Full Name</label> <!--What title the input has for user-->
-    <input type="text" id="fname" name="Name" placeholder="Your name you wish you had but your mom didn't give you..">
+    <input type="text" id="Name" placeholder="Your name you wish you had but your mom didn't give you..">
 
     <label for="Rating">How Great Did We Do?</label>
-    <select id="rating" name="Rating"> <!--select is for an option parameter (like a choice)-->
+    <select id="rating"> <!--select is for an option parameter (like a choice)-->
       <option value="amazing">This was the best website i've ever seen</option>
       <option value="horrible">You did better than most</option>
       <option value="better">This website made me want to quit marking</option>
     </select>
 
     <label for="comments">Comments</label>
-    <textarea placeholder="Write something...nice please. We are all fragile. " style="height:200px"></textarea>
+    <textarea id="comments" placeholder="Write something...nice please. We are all fragile. " style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>

@@ -503,3 +503,22 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+/* #Name {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #507c7c;
+}
+#rating {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #507c7c;
+} */
+#comments #rating #Name {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #507c7c;
+}
