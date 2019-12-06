@@ -409,6 +409,7 @@ p.jobtitle {
 p.tabcontentptag {
   text-align: left;
   font-size: 14px;
+  font-weight: none;
   color: #262626
 }
 
@@ -442,6 +443,7 @@ p.blogdate {
 p.blogtext{
   color: #262626;
   font-size: 12px;
+  font-weight: none;
   font-family: sans-serif;
   text-align: left;
 }
