@@ -309,7 +309,7 @@ p.information {
 
 /* INTERACTIVE MAP / Owner: Rylie */
 .interactiveMap {
-  position: relative;
+  /*position: relative;*/
   padding: 25%;
   height: 0;
   display: block;
