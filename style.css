@@ -120,33 +120,6 @@ ul.navbar { /*the beginning of the navigation bar, present on all pages of the s
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*
-@media screen and (max-width: 900px) {
-  .navbar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  .navbar li a {
-    float: none;
-    padding: 15px;
-  }
-
-  .dropdown-content {
-    z-index: 1;
-  }
-
-@media screen and (max-width: 400px) {
-  .navbar li a {
-    text-align: center;
-    float: none;
-  }
-  .dropdown-content {
-    z-index: 1;
-  }
-} */
-
 /*End of Lauren's navbar*/
 
 /*Start of Scroll Images Slideshow - Owner: Dan 12.03.19*/
